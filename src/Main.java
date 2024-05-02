@@ -23,42 +23,42 @@ public class Main {
                     de = "USD";
                     a = "ARS";
                     System.out.println("Ingrese monto a combertir: ");
-                    monto = teclado.nextInt();
+                    monto = teclado.nextFloat();
                     Request.api(de, a, monto);
                     break;
                 case 2:
                     de = "ARS";
                     a = "USD";
                     System.out.println("Ingrese monto a combertir: ");
-                    monto = teclado.nextInt();
+                    monto = teclado.nextFloat();
                     Request.api(de, a, monto);
                     break;
                 case 3:
                     de = "USD";
                     a = "BRL";
                     System.out.println("Ingrese monto a combertir: ");
-                    monto = teclado.nextInt();
+                    monto = teclado.nextFloat();
                     Request.api(de, a, monto);
                     break;
                 case 4:
                     de = "BRL";
                     a = "USD";
                     System.out.println("Ingrese monto a combertir: ");
-                    monto = teclado.nextInt();
+                    monto = teclado.nextFloat();
                     Request.api(de, a, monto);
                     break;
                 case 5:
                     de = "USD";
                     a = "COP";
                     System.out.println("Ingrese monto a combertir: ");
-                    monto = teclado.nextInt();
+                    monto = teclado.nextFloat();
                     Request.api(de, a, monto);
                     break;
                 case 6:
                     de = "COP";
                     a = "USD";
                     System.out.println("Ingrese monto a combertir: ");
-                    monto = teclado.nextInt();
+                    monto = teclado.nextFloat();
                     Request.api(de, a, monto);
                     break;
                 case 7:

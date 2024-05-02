@@ -4,9 +4,9 @@ public class Main {
     public static void main(String[] args) throws Exception {
         Scanner teclado = new Scanner(System.in);
 
-        String de;
-        String a;
+        String de, a;
         int opcion;
+        float monto;
         do {
             System.out.println("Opcion 1 Dolar a Peso arg");
             System.out.println("Opcion 2 Peso arg a Dolar");
@@ -22,32 +22,44 @@ public class Main {
                 case 1:
                     de = "USD";
                     a = "ARS";
-                    Request.api(de, a);
+                    System.out.println("Ingrese monto a combertir: ");
+                    monto = teclado.nextInt();
+                    Request.api(de, a, monto);
                     break;
                 case 2:
                     de = "ARS";
                     a = "USD";
-                    Request.api(de, a);
+                    System.out.println("Ingrese monto a combertir: ");
+                    monto = teclado.nextInt();
+                    Request.api(de, a, monto);
                     break;
                 case 3:
-                    de = "BRL";
-                    a = "USD";
-                    Request.api(de, a);
-                    break;
-                case 4:
                     de = "USD";
                     a = "BRL";
-                    Request.api(de, a);
+                    System.out.println("Ingrese monto a combertir: ");
+                    monto = teclado.nextInt();
+                    Request.api(de, a, monto);
+                    break;
+                case 4:
+                    de = "BRL";
+                    a = "USD";
+                    System.out.println("Ingrese monto a combertir: ");
+                    monto = teclado.nextInt();
+                    Request.api(de, a, monto);
                     break;
                 case 5:
                     de = "USD";
                     a = "COP";
-                    Request.api(de, a);
+                    System.out.println("Ingrese monto a combertir: ");
+                    monto = teclado.nextInt();
+                    Request.api(de, a, monto);
                     break;
                 case 6:
                     de = "COP";
                     a = "USD";
-                    Request.api(de, a);
+                    System.out.println("Ingrese monto a combertir: ");
+                    monto = teclado.nextInt();
+                    Request.api(de, a, monto);
                     break;
                 case 7:
                     break;
